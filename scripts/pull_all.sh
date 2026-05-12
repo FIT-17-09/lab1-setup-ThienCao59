@@ -15,7 +15,7 @@ IMAGES=(
   "redis:7-alpine"
   "swaggerapi/swagger-ui:v5.17.14"
   "hello-world:latest"
-  "ultralytics/ultralytics:latest-cpu"
+  #"ultralytics/ultralytics:latest-cpu"
 )
 
 mkdir -p evidence/buoi-01
