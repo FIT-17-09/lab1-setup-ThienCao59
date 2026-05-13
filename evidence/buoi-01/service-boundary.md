@@ -108,8 +108,4 @@ flowchart LR
     User[Actor] --> Service[Service của nhóm]
     Service --> DB[(Database)]
     Service --> Other[Service khác]
-
-flowchart LR
-    Core[Core Business Service] --> Notification[Notification Service]
-    Notification --> Channel[Telegram / Email / Console]
-    Notification --> Analytics[Analytics Service]
+![alt text](image.png)
